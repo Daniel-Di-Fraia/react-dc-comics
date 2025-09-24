@@ -5,6 +5,7 @@ const MyMainPage = () => {
             {/* sezione contenuti */}
             <section>
                 <p className="pos">-- content goes here --</p>
+                <p className="pos">-- content goes here --</p>
             </section>
 
             {/* sezione links sito */}
@@ -14,7 +15,7 @@ const MyMainPage = () => {
                     <li>
                         <a href="#">
                             <figure>
-                                <img src="/dc-logo.png" alt="Logo" />
+                                <img src="/buy-comics-digital-comics.png" alt="Logo" />
                             </figure>
                             <span>DIGITAL COMICS</span>
                         </a>
@@ -22,7 +23,7 @@ const MyMainPage = () => {
                     <li>
                         <a href="#">
                             <figure>
-                                <img src="/dc-logo.png" alt="Logo" />
+                                <img src="/buy-comics-merchandise.png" alt="Logo" />
                             </figure>
                             <span>DC MERCHANDISE</span>
                         </a>
@@ -30,7 +31,7 @@ const MyMainPage = () => {
                     <li>
                         <a href="#">
                             <figure>
-                                <img src="/dc-logo.png" alt="Logo" />
+                                <img src="/buy-comics-subscriptions.png" alt="Logo" />
                             </figure>
                             <span>SUBSCRIPTION</span>
                         </a>
@@ -38,7 +39,7 @@ const MyMainPage = () => {
                     <li>
                         <a href="#">
                             <figure>
-                                <img src="/dc-logo.png" alt="Logo" />
+                                <img src="/buy-comics-shop-locator.png" alt="Logo" />
                             </figure>
                             <span>COMIC SHOP LOCATOR</span>
                         </a>
@@ -46,7 +47,7 @@ const MyMainPage = () => {
                     <li>
                         <a href="#">
                             <figure>
-                                <img src="/dc-logo.png" alt="Logo" />
+                                <img src="/buy-dc-power-visa.svg" alt="Logo" />
                             </figure>
                             <span>DC POWER VISA</span>
                         </a>

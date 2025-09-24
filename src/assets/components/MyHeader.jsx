@@ -3,7 +3,7 @@ const MyHeader = () => {
     return (
         <header>
             <figure>
-                <img src="/dc-logo.png" alt="Logo" />
+                <img src="/dc-logo.png" alt="Logo" className="dim"/>
             </figure>
             <nav>
                 <ul class="Nav-Header">
