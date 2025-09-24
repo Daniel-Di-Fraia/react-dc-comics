@@ -13,6 +13,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -24,8 +37,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
