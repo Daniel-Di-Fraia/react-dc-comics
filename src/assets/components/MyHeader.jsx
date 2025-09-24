@@ -1,8 +1,8 @@
 // creo l header della pagina e lo esporto
 const MyHeader = () => {
     return (
-        <header>
-            <div className="row-flex container">
+        <header className="container">
+            <div className="row-flex container-item">
             <figure>
                 <img src="/dc-logo.png" alt="Logo" className="dim"/>
             </figure>
