@@ -6,7 +6,7 @@ const MyHeader = () => {
                 <img src="/dc-logo.png" alt="Logo" />
             </figure>
             <nav>
-                <ul>
+                <ul class="Nav-Header">
                     <li><a href="#">CHARACTERS</a></li>
                     <li><a href="#" className="active">COMICS</a></li>
                     <li><a href="#">MOVIES</a></li>

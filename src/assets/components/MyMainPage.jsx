@@ -1,12 +1,61 @@
 // creo il main della pagina e lo esporto
-// const MyMainPage = () => {
-//     return (
-//         <main>
-//             <section>
+const MyMainPage = () => {
+    return (
+        <main>
+            {/* sezione contenuti */}
+            <section>
+                <p className="pos">-- content goes here --</p>
+            </section>
 
-//             </section>
-//         </main>>
-//     )
-// }
+            {/* sezione links sito */}
+            <section className="site-nav">
+                <nav>
+                <ul className="nav-main">
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img src="/dc-logo.png" alt="Logo" />
+                            </figure>
+                            <span>DIGITAL COMICS</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img src="/dc-logo.png" alt="Logo" />
+                            </figure>
+                            <span>DC MERCHANDISE</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img src="/dc-logo.png" alt="Logo" />
+                            </figure>
+                            <span>SUBSCRIPTION</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img src="/dc-logo.png" alt="Logo" />
+                            </figure>
+                            <span>COMIC SHOP LOCATOR</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img src="/dc-logo.png" alt="Logo" />
+                            </figure>
+                            <span>DC POWER VISA</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            </section>
+        </main>
+    )
+}
 
-// export default MyMainPage
+export default MyMainPage
