@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans' ,system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -11,13 +11,33 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+} 
+
+body {
+  margin: 0 auto;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
 /* header pagina */
 header {
+  background-color: white;
+  padding: 10px 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-item {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.row-flex {
   display: flex;
   justify-content: space-around;
-  background-color: white;
   align-items: center;
 }
 
@@ -33,18 +53,13 @@ header {
 
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  color: black;
+  text-decoration: none;
 }
 a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
 h1 {
   font-size: 3.2em;
@@ -54,19 +69,22 @@ h1 {
 /* main pagina */
 .pos {
   font-size: 30px;
-  margin-left: 250px;
   font-weight: 600;
   color: white;
 }
 
 .site-nav {
   background-color: #0282F9;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 900;
 }
 
 .nav-main {
   display: flex;
   justify-content: center;
   list-style-type: none;
+  margin: 0;
 }
 
 .nav-main a {
@@ -80,4 +98,85 @@ h1 {
 img {
   height: 65px;
 }
+
+/* footer di pagina */
+footer {
+  width: 100%;
+  height: 400px;
+  background-image:
+  url("/dc-logo-bg.png"), url("/footer-bg.jpg"),
+  linear-gradient(to right, rgb(30 75 115 / 100%), transparent);
+  background-repeat: no-repeat, repeat, no-repeat;
+  background-position: 80% , 50%;
+  
+}
+
+.row-nav {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-dim {
+  padding-bottom: 25px;
+}
+
+.nav-foot {
+  list-style-type: none;
+  line-height: 18px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+  padding: 30px 0;
+}
+
+
+.nav-foot a {
+  color: grey;
+  font-size: 11px;
+}
+
+.nav-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-sec {
+  background-color: #303030;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 140px;
+  gap: 120px;
+}
+
+.row-social {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+button {
+    height: 50px;
+    width: 140px;
+    font-size: 17px;
+    border: 2px solid #0282F9;
+    background-color: #303030;
+}
+
+.last-link:first-child a {
+  color: #0282F9;
+  font-size: 25px;
+}
+
+.dim-link {
+  height: 35px;
+}
+
+figure {
+  margin: 0 15px;
+}
+
 

@@ -2,6 +2,7 @@
 const MyHeader = () => {
     return (
         <header>
+            <div className="row-flex container">
             <figure>
                 <img src="/dc-logo.png" alt="Logo" className="dim"/>
             </figure>
@@ -19,6 +20,7 @@ const MyHeader = () => {
                     <li><a href="#">SHOP</a></li>
                 </ul>
             </nav>
+            </div>
         </header>
     )
 }
