@@ -63,6 +63,7 @@ a {
 }
 a:hover {
   color: #535bf2;
+  border-bottom: 2px solid blue;
 }
 
 
@@ -107,10 +108,11 @@ img {
 
 .nav-main a:hover {
   color: blue;
+  border: none;
 }
 
 .nav-main a:hover img {
-  transform: rotate(10deg) scale(1.07);
+  transform: scale(1.10);
 }
 
 /* footer di pagina */
@@ -186,9 +188,13 @@ button {
 }
 
 button:hover {
-  background-color: #0282F9;
-  transform: scale(1.10);
-  border: 3px solid black;
+  /* background-color: #0282F9; */
+  transform: scale(1.05);
+  box-shadow: 0 0 5px #0282F9,
+              0 0 10px #0282F9, 
+              0 0 20px #0282F9, 
+              0 0 15px #0282F9; 
+  /* border: 3px solid black; */
 }
 
 .last-link:first-child a {
@@ -204,6 +210,11 @@ button:hover {
 
 .dim-link:hover {
   transform: scale(1.10);
+  border-radius: 50%;
+  box-shadow: 0 0 5px #0282F9,
+              0 0 10px #0282F9, 
+              0 0 20px #0282F9, 
+              0 0 15px #0282F9; 
 }
 
 figure {
