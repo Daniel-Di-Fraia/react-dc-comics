@@ -3,13 +3,14 @@ import './App.css'
 import MyFooter from './assets/components/MyFooter'
 import MyHeader from './assets/components/MyHeader'
 import MyMainPage from './assets/components/MyMainPage'
-
+import Jumbotron from './assets/components/Jumbotron'
 function App() {
   
 
   return (
     <>
       <MyHeader/>
+      <Jumbotron/>
       <MyMainPage/>
       <MyFooter/>
     </>
