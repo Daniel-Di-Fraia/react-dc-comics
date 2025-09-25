@@ -10,7 +10,7 @@ const ComicsMain = () => {
                 {/* Card di prodotto  */}
                 {comics.map(comicItem => (
                     <div key={comicItem.id}>
-                        <figure>
+                        <figure id="img-hover">
                             <img id="comics" src={comicItem.thumb} alt={comicItem.title} />
                             <figcaption>{comicItem.title}</figcaption>
                         </figure>

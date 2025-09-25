@@ -42,7 +42,7 @@ const MyFooter = () => {
             </nav>
             </section>
             <section className="footer-sec container">
-                <button>SIGN-UP NOW!</button>
+                <button id="sign">SIGN-UP NOW!</button>
                 <ul className="row-social">
                     <li className="last-link">
                         <a href="#">FOLLOW US</a>

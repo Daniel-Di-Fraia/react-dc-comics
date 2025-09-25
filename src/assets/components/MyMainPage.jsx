@@ -8,6 +8,9 @@ const MyMainPage = () => {
             {/* sezione contenuti */}
             <section className="container-big">
                 <ComicsMain/>
+                <div className="row">
+                <button id="load">LOAD MORE</button>
+                </div>
             </section>
 
             {/* sezione links sito */}

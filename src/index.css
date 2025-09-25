@@ -92,9 +92,8 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 50px 0;
+  padding-top: 60px;
 }
-
 
 figcaption {
   max-width: 200px;
@@ -105,6 +104,36 @@ figcaption {
 #comics {
   height: 300px;
   width: 200px;
+}
+
+#img-hover {
+  transition: transform 0.2s ease;
+}
+
+#img-hover:hover {
+  transform: scale(1.10);
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+#load {
+  background-color: #0282F9;
+  width: 15%;
+  height: 40px;
+  margin-bottom: 40px;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: transform 0.2s ease;
+  border: none;
+}
+
+#load:hover {
+  transform: scale(1.07);
+  cursor: pointer;
 }
 
 /* sezione navigazione del main */
@@ -132,6 +161,7 @@ figcaption {
 
 img {
   height: 60px;
+  transition: transform 0.2s ease;
 }
 
 .nav-main a:hover {
@@ -206,16 +236,17 @@ footer {
   align-items: center;
 }
 
-button {
+#sign {
     height: 50px;
     width: 140px;
     font-size: 17px;
     border: 2px solid #0282F9;
     background-color: #303030;
     cursor: pointer;
+    transition: transform 0.2s ease;
 }
 
-button:hover {
+#sign:hover {
   /* background-color: #0282F9; */
   transform: scale(1.05);
   box-shadow: 0 0 5px #0282F9,
