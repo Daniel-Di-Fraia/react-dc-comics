@@ -45,6 +45,11 @@ header {
   height: 90px;
 }
 
+.dim:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
 .Nav-Header {
   display: flex;
   gap: 20px;
@@ -68,7 +73,7 @@ h1 {
 
 /* main pagina */
 .pos {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   color: white;
 }
@@ -97,7 +102,15 @@ h1 {
 }
 
 img {
-  height: 65px;
+  height: 60px;
+}
+
+.nav-main a:hover {
+  color: blue;
+}
+
+.nav-main a:hover img {
+  transform: rotate(10deg) scale(1.07);
 }
 
 /* footer di pagina */
@@ -136,6 +149,10 @@ footer {
   font-size: 11px;
 }
 
+.nav-foot a:hover {
+  color:white;
+}
+
 .nav-title {
   color: white;
   font-size: 20px;
@@ -149,7 +166,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 140px;
+  height: 130px;
   gap: 120px;
 }
 
@@ -165,6 +182,11 @@ button {
     font-size: 17px;
     border: 2px solid #0282F9;
     background-color: #303030;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #0282F9;
 }
 
 .last-link:first-child a {
