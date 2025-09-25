@@ -1,12 +1,13 @@
 import LinkMain from "./CompMain/LinkMain"
+import ComicsMain from "./CompMain/ComicsMain"
+
 // creo il main della pagina e lo esporto
 const MyMainPage = () => {
     return (
         <main className="container">
             {/* sezione contenuti */}
-            <section className="container-item">
-                <p className="pos">content goes here</p>
-                <p className="pos">content goes here</p>
+            <section className="container-big">
+                <ComicsMain/>
             </section>
 
             {/* sezione links sito */}

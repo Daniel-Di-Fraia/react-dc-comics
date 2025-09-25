@@ -62,8 +62,8 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #535bf2;
-  border-bottom: 2px solid blue;
+  color: #0282F9;
+  border-bottom: 2px solid #0282F9;
 }
 
 h1 {
@@ -78,10 +78,33 @@ h1 {
 }
 
 /* main pagina */
+.container-big {
+  width: 80%;
+  margin: 0 auto;
+}
 .pos {
   font-size: 25px;
   font-weight: 600;
   color: white;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+
+figcaption {
+  max-width: 200px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+#comics {
+  height: 300px;
+  width: 200px;
 }
 
 /* sezione navigazione del main */
