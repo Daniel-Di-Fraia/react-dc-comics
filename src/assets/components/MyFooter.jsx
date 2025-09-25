@@ -2,6 +2,7 @@
 const MyFooter = () => {
     return (
         <footer className="container">
+            {/* prima sezione */}
             <section className="container-item">
             <nav className="row-nav footer-dim">
                 <ul className="nav-foot">
@@ -41,6 +42,8 @@ const MyFooter = () => {
                 </ul>
             </nav>
             </section>
+
+            {/* seconda sezione */}
             <section className="footer-sec container">
                 <button id="sign">SIGN-UP NOW!</button>
                 <ul className="row-social">

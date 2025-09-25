@@ -1,3 +1,4 @@
+// creiamo il jumbotron della pagina
 const Jumbotron = () => {
     return (
         <div className="container bkg-titans">

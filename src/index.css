@@ -1,3 +1,4 @@
+/* generics */
 :root {
   font-family: 'Open Sans' ,system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -18,20 +19,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
   position: relative;
-}
-
-.series {
-  position:absolute;
-  background-color: #0282F9;
-  height: 50px;
-  width:15%;
-  left: 250px;
-  top: 490px;
-  line-height: 50px;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 700;
-  color: white;
 }
 
 /* header pagina */
@@ -92,7 +79,21 @@ h1 {
   height: 400px;
 }
 
-/* main pagina */
+.series {
+  position:absolute;
+  background-color: #0282F9;
+  height: 50px;
+  width:15%;
+  left: 250px;
+  top: 490px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+
+/* main pagina con cards e bottone*/
 .container-big {
   width: 80%;
   margin: 0 auto;
@@ -228,6 +229,7 @@ footer {
   color:white;
 }
 
+/* sezione finale footer */
 .nav-title {
   color: white;
   font-size: 20px;
@@ -242,7 +244,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   height: 130px;
-  gap: 120px;
+  gap: 140px;
 }
 
 .row-social {

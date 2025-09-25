@@ -4,10 +4,10 @@ import comics from "/comics.js";
 
 const ComicsMain = () => {
     return (
-
+            
             <div className="d-flex">
 
-                {/* Card di prodotto  */}
+                {/* Card di main pagina  */}
                 {comics.map(comicItem => (
                     <div key={comicItem.id}>
                         <figure id="img-hover">
@@ -16,7 +16,7 @@ const ComicsMain = () => {
                         </figure>
                     </div>
                 ))}
-             </div>    
+            </div>    
     )
 }
 

@@ -1,3 +1,4 @@
+//importo i componenti del main creati in MyMainPage
 import LinkMain from "./CompMain/LinkMain"
 import ComicsMain from "./CompMain/ComicsMain"
 

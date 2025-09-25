@@ -1,3 +1,4 @@
+//creiamo la sezione nav del main
 const LinkMain = () => {
     return (
         <nav>
