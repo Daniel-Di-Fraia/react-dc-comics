@@ -1,3 +1,17 @@
+//creo array per lista
+const navItems = [
+  { label: "CHARACTERS", href: "#", active: false },
+  { label: "COMICS", href: "#", active: true },
+  { label: "MOVIES", href: "#", active: false },
+  { label: "TV", href: "#", active: false },
+  { label: "GAMES", href: "#", active: false },
+  { label: "COLLECTIBLES", href: "#", active: false },
+  { label: "VIDEOS", href: "#", active: false },
+  { label: "FANS", href: "#", active: false },
+  { label: "NEWS", href: "#", active: false },
+  { label: "SHOP", href: "#", active: false }
+];
+
 // creo l header della pagina e lo esporto
 const MyHeader = () => {
     return (
@@ -8,16 +22,9 @@ const MyHeader = () => {
             </figure>
             <nav>
                 <ul class="Nav-Header">
-                    <li><a href="#">CHARACTERS</a></li>
-                    <li><a href="#" className="active">COMICS</a></li>
-                    <li><a href="#">MOVIES</a></li>
-                    <li><a href="#">TV</a></li>
-                    <li><a href="#">GAMES</a></li>
-                    <li><a href="#">COLLECTIBLES</a></li>
-                    <li><a href="#">VIDEOS</a></li>
-                    <li><a href="#">FANS</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">SHOP</a></li>
+                {navItems.map((item) => (
+                    <li><a href={item.href}>{item.label}</a></li>
+                ))}
                 </ul>
             </nav>
             </div>
