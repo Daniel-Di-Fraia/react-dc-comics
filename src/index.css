@@ -17,6 +17,21 @@ body {
   margin: 0 auto;
   min-width: 320px;
   min-height: 100vh;
+  position: relative;
+}
+
+.series {
+  position:absolute;
+  background-color: #0282F9;
+  height: 50px;
+  width:15%;
+  left: 250px;
+  top: 490px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
 }
 
 /* header pagina */
@@ -165,7 +180,7 @@ img {
 }
 
 .nav-main a:hover {
-  color: blue;
+  color: black;
   border: none;
 }
 
